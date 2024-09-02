@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#Formulario {
+    margin: 260px 0 0 0;
+    width: 100%;
+}
+
+.Formulario {
+    margin-left: 150px;
+    border-radius: 30px;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+.NavDown {
+    display: inline-block; 
+}
+.Voltar {
+    padding: 10px;
+    background-color: blue;
+    margin-right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Voltar:active{
+    background-color: #00f7ff;
+}
+.Voltar:hover{
+    font-size: 32px;
+}
+.InserirDados:active{
+    background-color: #91ff97;
+}
+.InserirDados:hover{
+    font-size: 32px;
+}
+.ConsultarDados{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 0, 221);
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.Avancar {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: red;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Avancar:active{
+    background-color: rgb(255, 102, 0);
+}
+.Avancar:hover{
+    font-size: 32px;
+}
+.NavDown{
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+}
